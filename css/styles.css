@@ -18,6 +18,8 @@ background-size: 64px 128px;
     position: absolute;
     left: 100px;
     top: 480px;
+    direction: Right;
+    type: Equilateral;
 }
 .buttonRight {
     background-color: #4CAF50; /* Green */
