@@ -1,6 +1,6 @@
 body{
-  /*background-color:	#E0FFFF;*/
-  background-color: #5F9EA0;
+  /*background-color:	#E0FFFF;#5F9EA0*/
+  background-color:rgba(95,158,160,0.8);
 }
 .buttonLeft {
   width: 0;
@@ -8,10 +8,10 @@ body{
   border-top: 70px solid transparent;
   border-bottom: 70px solid transparent;
   color: white;
-  border-right:70px solid green;
-  position: absolute;
+  border-right:70px solid rgba(255, 255, 255, 0.6);
+  position: absolute;;
   left: 230px;
-  top: 200px;
+  top: 300px;
 }
 .buttonRight {
   width: 0;
@@ -19,50 +19,34 @@ body{
   border-top: 70px solid transparent;
   border-bottom: 70px solid transparent;
   color: white;
-  border-left:70px solid green;
+  border-left:70px solid rgba(255, 255, 255, 0.6);
   position: absolute;
   left: 1070px;
-  top: 200px;
-}
-
-.buttonLeftOld {
-    background-color: #4CAF50; /* Green */
-    /*border: none;*/
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    position: absolute;
-    left: 200px;
-    top: 400px;
-}
-.buttonRightOld {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    position: absolute;
-    left: 1000px;
-    top: 400px;
+  top: 300px;
 }
 
 .mySlides {
+/*
     display: block;
-    /*margin: auto;
-    width: 50%;*/
+    margin: auto;
+    width: 50%;
+    */
     position: relative;
-    top: 800px;
+    top: 70px;
+    left: 50%;                         /* 3 */
+    transform: translate(-50%, 0);
+
   }
-.center {
-  display: block;
-  margin: auto;
-  width: 50%;
-  position: relative;
-  top: 400px;
+h2 {
+    text-align: center;
+    font-family: "Courier New";
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 40px;
+}
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
 }
