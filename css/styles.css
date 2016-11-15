@@ -8,8 +8,30 @@ radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, 
 radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
 background-size:100px 50px;
 }
-
 .buttonLeft {
+  width: 0;
+  height: 0;
+  border-top: 70px solid transparent;
+  border-bottom: 70px solid transparent;
+  color: white;
+  border-right:70px solid green;
+  position: absolute;
+  left: 230px;
+  top: 200px;
+}
+.buttonRight {
+  width: 0;
+  height: 0;
+  border-top: 70px solid transparent;
+  border-bottom: 70px solid transparent;
+  color: white;
+  border-left:70px solid green;
+  position: absolute;
+  left: 1070px;
+  top: 200px;
+}
+
+.buttonLeftOld {
     background-color: #4CAF50; /* Green */
     /*border: none;*/
     color: white;
@@ -19,10 +41,10 @@ background-size:100px 50px;
     display: inline-block;
     font-size: 16px;
     position: absolute;
-    left: 300px;
-    top: 480px;
+    left: 200px;
+    top: 400px;
 }
-.buttonRight {
+.buttonRightOld {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -32,8 +54,8 @@ background-size:100px 50px;
     display: inline-block;
     font-size: 16px;
     position: absolute;
-    left: 900px;
-    top: 480px;
+    left: 1000px;
+    top: 400px;
 }
 
 .mySlides {
@@ -41,3 +63,10 @@ background-size:100px 50px;
     margin: auto;
     width: 50%;
   }
+.center {
+  display: block;
+  margin: auto;
+  width: 50%;
+  position: relative;;
+  top: 400px;
+}
