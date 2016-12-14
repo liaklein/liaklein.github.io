@@ -33,7 +33,7 @@ body{
     */
     position: relative;
     top: 70px;
-    left: 50%;                         /* 3 */
+    left: 25%;                         /* 3 */
     transform: translate(-50%, 0);
 
   }
